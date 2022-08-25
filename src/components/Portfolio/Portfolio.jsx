@@ -5,10 +5,13 @@ import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 
+import {Pagination} from 'swiper'
+import 'swiper/css/pagination'
+
 import Project1 from "../../img/project1.png";
 import Project2 from "../../img/project2.png";
 import Project3 from "../../img/project3.png";
-import MusicApp from "../../img/musicapp.png";
+
 
 import { useContext } from 'react';
 import { themeContext } from "../../Context";
@@ -29,6 +32,8 @@ const Portfolio = () => {
         {/* slider */}
         <Swiper
         grabCursor={true}
+        modules={[Pagination]}
+        pagination={{clickable: true}}
         breakpoints={{
             0: {
                 slidesPerView : 1,
@@ -69,24 +74,18 @@ const Portfolio = () => {
             <SwiperSlide>
                 <div className='portfolio-image'>
                     <img src={Project2} alt='' />
-                    <a href='https://github.com/Rahul5126' className='btn'>Github</a>
-                    <a href='https://github.com/Rahul5126' className='btn2'>Demo</a>
+                    <a href='https://github.com/Rahul5126/react-multiPages-portfolio' className='btn'>Github</a>
+                    <a href='https://multi-pageportfolio.netlify.app/' className='btn2'>Demo</a>
                 </div>
             </SwiperSlide>
             <SwiperSlide className='portfolio-items'>
                 <div className='portfolio-image'>
                     <img src={Project3} alt='' />
-                    <a href='https://github.com/Rahul5126' className='btn'>Github</a>
-                    <a href='https://github.com/Rahul5126' className='btn2'>Demo</a>
+                    <a href='https://github.com/Rahul5126/connect4-game' className='btn'>Github</a>
+                    <a href='#projects' className='btn2'>Demo</a>
                 </div>
             </SwiperSlide>
-            <SwiperSlide className='portfolio-items'>
-                <div className='portfolio-image'>
-                    <img src={MusicApp} alt='' />
-                    <a href='https://github.com/Rahul5126' className='btn'>Github</a>
-                    <a href='https://github.com/Rahul5126' className='btn2'>Demo</a>
-                </div>
-            </SwiperSlide>
+            
 
         </Swiper>
 
