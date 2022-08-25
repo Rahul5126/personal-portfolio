@@ -52,11 +52,19 @@ const Intro = () => {
                 </span>
                 <span>A Fresher who is trying to get experience and knowledge in web designing and development by creating some practical and Quality projects. I'm a web developer with a focus on front-end development but still exploring other technologies and frameworks that catch my interest! If you are looking for a developer to add to your team, I'd love to hear from you!</span>
             </div>
+            <a href='#contact' alt=''>
             <button className='button i-button'>Hire me</button>
+            </a>
             <div className='i-icons'>
-                <img src={Github} alt='' />
+                <a href='https://github.com/Rahul5126?tab=repositories' alt=''>
+                <img src={Github} alt='' />  
+                </a> 
+                <a href='https://www.linkedin.com/in/rahul-singh-8a8479204/' alt=''>
                 <img src={Linkedin} alt='' />
+                </a>
+                <a href='https://www.instagram.com/the_rahul.singh/' alt=''>
                 <img src={Instagram} alt='' />
+                </a>
             </div>
         </div>
 

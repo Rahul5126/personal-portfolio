@@ -5,9 +5,9 @@ import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
+import Project1 from "../../img/project1.png";
+import Project2 from "../../img/project2.png";
+import Project3 from "../../img/project3.png";
 import MusicApp from "../../img/musicapp.png";
 
 import { useContext } from 'react';
@@ -61,21 +61,21 @@ const Portfolio = () => {
 
             <SwiperSlide>
                 <div className='portfolio-image'>
-                    <img src={Sidebar} alt='' />
-                    <a href='https://github.com/Rahul5126' className='btn'>Github</a>
-                    <a href='https://github.com/Rahul5126' className='btn2'>Demo</a>
+                    <img src={Project1} alt='' />
+                    <a href='https://github.com/Rahul5126/personal-portfolio' className='btn'>Github</a>
+                    <a href='https://rahulthedeveloper.netlify.app/' className='btn2'>Demo</a>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div className='portfolio-image'>
-                    <img src={Ecommerce} alt='' />
+                    <img src={Project2} alt='' />
                     <a href='https://github.com/Rahul5126' className='btn'>Github</a>
                     <a href='https://github.com/Rahul5126' className='btn2'>Demo</a>
                 </div>
             </SwiperSlide>
             <SwiperSlide className='portfolio-items'>
                 <div className='portfolio-image'>
-                    <img src={HOC} alt='' />
+                    <img src={Project3} alt='' />
                     <a href='https://github.com/Rahul5126' className='btn'>Github</a>
                     <a href='https://github.com/Rahul5126' className='btn2'>Demo</a>
                 </div>
