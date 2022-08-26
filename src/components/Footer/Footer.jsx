@@ -13,7 +13,7 @@ const Footer = () => {
 
       <img src={Wave} alt="" style={{ width: "100%" }} />
         <div className="f-content">
-            <span>rs9565589422@gmail.com</span>
+            <span>rahulofficial5126@gmail.com</span>
             <div className="f-icons">
             <a href='https://www.instagram.com/the_rahul.singh/' alt=''>
               <Insta color="white" size={"3rem"} />
