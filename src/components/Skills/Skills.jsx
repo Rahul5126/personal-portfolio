@@ -5,7 +5,7 @@ import Heartemoji from '../../img/heartemoji.png'
 import Card from '../Cards/Card'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
-import Resume from './resume.pdf'
+import Resume from './Rahul Singh(Resume).pdf'
 
 // Dark Mode
 import { useContext } from 'react';
